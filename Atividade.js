@@ -3,7 +3,7 @@ class Book {
         this.title = title
         this.description = description
         this.author = author
-        this.id = String(title.length + description.length + author.length)
+        this.id = String(description.length * 5 . 2) //geração de ID "aleatórios"
     }
 }
 
@@ -90,14 +90,6 @@ Estante1.addBook({title: "É Assim que Acaba",
 
 Estante1.getBooks()
 
-Estante1.getBookById('83')
-
-Estante1.updateBookById('83',{title: "O poder do hábito", description: "Sucesso!" ,author: "Charles Duhigg"})
-
-Estante1.removeBookById('83')
-
-Estante1.removeBookById('157')
-
-Estante1.removeBookById('250')
+Estante1.getBookById('100')
 
 Estante1.getBooks()
