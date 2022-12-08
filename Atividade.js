@@ -64,8 +64,8 @@ class Library {
         for (let index = 0; index < this.Books.length; index++) {
             if (this.Books[index].id === ID) {
                 this.Books[index].title = info['title']
-                this.Books[index].title = info['description']
-                this.Books[index].title = info['author']
+                this.Books[index].description = info['description']
+                this.Books[index].author = info['author']
                 console.log("Atualizado!")
                 return this.Books[index]
             } 
