@@ -3,7 +3,7 @@ class Book {
         this.title = title
         this.description = description
         this.author = author
-        this.id = String(description.length * 5 . 2) //geração de ID "aleatórios"
+        this.id = String(description.length * 5 + 2) //geração de ID "aleatórios"
     }
 }
 
